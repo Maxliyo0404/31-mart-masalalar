@@ -160,7 +160,7 @@
 //     }
 //     natija(baho);
 // case 2-masala
-// let oy = +prompt("oy kiriting");
+ let oy = +prompt("oy kiriting");
 // function natija (oy) {
 //     switch (oy){
 //         case 12 :
