@@ -246,28 +246,28 @@
 //     }
 //     natija(birlik);
 // // 5-masala
-let birlik = +prompt("birlikni tanlang");
-let ogirlik = +prompt("ogirlikni tanlang");
-function natija (birlik, ogirlik) {
-    switch (birlik){
-        case 1 : 
-        console.log(ogirlik   + "kg");
-        break ; // milligram
-        case 2: 
-        console.log(ogirlik / 1000000 + "kg");
+// let birlik = +prompt("birlikni tanlang");
+// let ogirlik = +prompt("ogirlikni tanlang");
+// function natija (birlik, ogirlik) {
+//     switch (birlik){
+//         case 1 : 
+//         console.log(ogirlik   + "kg");
+//         break ; // milligram
+//         case 2: 
+//         console.log(ogirlik / 1000000 + "kg");
         
-        break ; // milligram 
-        case 3: 
-          console.log(ogirlik / 1000 + "kg");  
-        break ;  //gramm
-        case 4: 
-       console.log(ogirlik * 1000 + "kg");
-        break ; //tonna
-        case 5: 
-         console.log(ogirlik * 100 + "kg");
-        break ; //senter
-        default:
-         console.log("Xato og'irlik");         
-    }
-    }
-    natija(birlik , ogirlik);
+//         break ; // milligram 
+//         case 3: 
+//           console.log(ogirlik / 1000 + "kg");  
+//         break ;  //gramm
+//         case 4: 
+//        console.log(ogirlik * 1000 + "kg");
+//         break ; //tonna
+//         case 5: 
+//          console.log(ogirlik * 100 + "kg");
+//         break ; //senter
+//         default:
+//          console.log("Xato og'irlik");         
+//     }
+//     }
+//     natija(birlik , ogirlik);
