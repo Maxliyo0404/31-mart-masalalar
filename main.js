@@ -14,16 +14,16 @@
 //   }
 
 // 9-masal
-let a = +prompt("a kiriting");
-let b = +prompt("b kiriting");
-let katta = Math.max( a , b);
-if (a !== b) {
-    a = katta;
-    b = katta;
-    alert("har xil: a=" + a +"b=" + b);
-} else {
-    a = 0;
-    b = 0;
-   alert("Teng : a=" + a +"b=" + b);
-}
+// let a = +prompt("a kiriting");
+// let b = +prompt("b kiriting");
+// let katta = Math.max( a , b);
+// if (a !== b) {
+//     a = katta;
+//     b = katta;
+//     alert("har xil: a=" + a +"b=" + b);
+// } else {
+//     a = 0;
+//     b = 0;
+//    alert("Teng : a=" + a +"b=" + b);
+// }
   
