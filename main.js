@@ -31,4 +31,6 @@
  let a = +prompt("a kiriting");
  let b = +prompt("b kiriting");
  let c = +prompt("c kiriting");
- let result = Math.min
+ let result = Math.min(a, b, c);
+ console.log(result);
+ 
