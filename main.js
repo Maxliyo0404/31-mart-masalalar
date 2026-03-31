@@ -12,4 +12,9 @@
 
 //     alert( "Sonlari teng" + 0  );
 //   }
+
+// 9-masal
+let a = +prompt("a kiriting");
+let b = +prompt("b kiriting");
+
   
