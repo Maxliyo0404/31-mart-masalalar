@@ -89,13 +89,13 @@ let b = +prompt("b kiriting");
 let c = +prompt("c kiriting");
 let d = +prompt("d kiriting");
 if (a !== b && a !== c) {
-    alert("boshqa sononi tartib raqami : 1")
+    alert("boshqa sonni tartib raqami : 1");
 } else if(b !== a && b !== c) {
-    alert("boshqa sononi tartib raqami : 2")
+    alert("boshqa sonni tartib raqami : 2");
 }
  else if(c !== a && c !== b) {
-    alert("boshqa sononi tartib raqami : 3")
+    alert("boshqa sonni tartib raqami : 3");
 }
 else{
-    alert("boshqa sononi tartib raqami : 4")
+    alert("boshqa sonni tartib raqami : 4");
 }
