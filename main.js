@@ -114,12 +114,22 @@
 // 18-masala
  let a = +prompt("a kiriting");
  if (a >= 1 && a <= 9) {
-    alert("1 xonali son ");
- } else if(n >= 10 && n <= 99) {
-     alert("2 xonali son ");
+    if (a % 2 === 0)
+    alert("1 xonali juft son " );
+ }else{
+    alert("1 xonali toq son");
+ }
+  else if(n >= 10 && n <= 99) {
+    if (a % 2 === 0)
+     alert("2 xonali juft son ");
+ } else{
+    alert("2 xonali toq son");
  }
  else if(n >= 100 && n <= 999) {
-     alert("3 xonali son ");
+    if (a % 2 === 0)
+     alert("3 xonali juft son ");
+ } else{
+    alert("3 xonali toq son");
  }else{
     alert("sin 1 va 999 oralig'ida emas")
  }
