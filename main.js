@@ -1,10 +1,15 @@
 // 8-masala
-let a = +prompt("a kiriting");
+  let a = +prompt("a kiriting");
   let b = +prompt("b kiriting");
-  let result = a + b;
   if (a !== b) {
-    alert( a + b );
-  } else if( a === b) {
-    alert( 0 );
+     let result = a + b;
+     a = result;
+     b= result;
+    alert("Sonlari har xil" + a );  
+  } else  {
+    a = 0;
+    b = 0;
+
+    alert( "Sonlari teng" + 0  );
   }
   l
