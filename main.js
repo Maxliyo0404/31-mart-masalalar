@@ -84,18 +84,18 @@
 // }
 // 15-masala
 
-let a = +prompt("a kiriting");
-let b = +prompt("b kiriting");
-let c = +prompt("c kiriting");
-let d = +prompt("d kiriting");
-if (a !== b && a !== c) {
-    alert("boshqa sonni tartib raqami : 1");
-} else if(b !== a && b !== c) {
-    alert("boshqa sonni tartib raqami : 2");
-}
- else if(c !== a && c !== b) {
-    alert("boshqa sonni tartib raqami : 3");
-}
-else{
-    alert("boshqa sonni tartib raqami : 4");
-}
+// let a = +prompt("a kiriting");
+// let b = +prompt("b kiriting");
+// let c = +prompt("c kiriting");
+// let d = +prompt("d kiriting");
+// if (a !== b && a !== c) {
+//     alert("boshqa sonni tartib raqami : 1");
+// } else if(b !== a && b !== c) {
+//     alert("boshqa sonni tartib raqami : 2");
+// }
+//  else if(c !== a && c !== b) {
+//     alert("boshqa sonni tartib raqami : 3");
+// }
+// else{
+//     alert("boshqa sonni tartib raqami : 4");
+// }
