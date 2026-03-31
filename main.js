@@ -99,3 +99,5 @@
 // else{
 //     alert("boshqa sonni tartib raqami : 4");
 // }
+// 16-masala
+let x = +prompt("x  sonini yozing");
