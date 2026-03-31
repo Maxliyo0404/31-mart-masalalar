@@ -60,13 +60,25 @@
 
 // 13-masala
 
+// let a = +prompt("a kiriting");
+// let b = +prompt("b kiriting");
+// let c = +prompt("c kiriting");
+// if (a < b  &&  b < c) {
+//     let natija = a * b * c * 2 ;
+//     alert("natija ko'paytma:  *  2" + natija);
+// } else {
+//     let natija = a -b -c;
+//     alert("natija ayirma: " + natija);
+// }
+
+// 14-masala
 let a = +prompt("a kiriting");
 let b = +prompt("b kiriting");
 let c = +prompt("c kiriting");
-if (a < b  &&  b < c) {
+if ((a < b && b < c) || (a > b && b > c)) {
     let natija = a * b * c * 2 ;
-    alert("natija ko'paytma *  2" + natija);
+    alert("natija (ikkilantirildi): "  + natija); 
 } else {
-    let natija = a -b -c;
-    alert("natija ayirma" + natija);
+     let natija = a -b -c;
+     alert("natija (shart bajarilmadi): "  + natija); 
 }
