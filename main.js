@@ -82,3 +82,20 @@
 //      let natija = a -b -c;
 //      alert("natija (shart bajarilmadi): "  + natija); 
 // }
+// 15-masala
+
+let a = +prompt("a kiriting");
+let b = +prompt("b kiriting");
+let c = +prompt("c kiriting");
+let d = +prompt("d kiriting");
+if (a !== b && a !== c) {
+    alert("boshqa sononi tartib raqami : 1")
+} else if(b !== a && b !== c) {
+    alert("boshqa sononi tartib raqami : 2")
+}
+ else if(c !== a && c !== b) {
+    alert("boshqa sononi tartib raqami : 3")
+}
+else{
+    alert("boshqa sononi tartib raqami : 4")
+}
