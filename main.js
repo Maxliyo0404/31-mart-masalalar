@@ -41,4 +41,6 @@ let c = +prompt("c kiriting");
 let katta = Math.max(a, b, c);
 let kichik = Math.min(a, b, c);
 let result = (a + b + c) - (katta + kichik);
+console.log(result);
+
 
