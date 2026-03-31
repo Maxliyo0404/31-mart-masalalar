@@ -101,3 +101,11 @@
 // }
 // 16-masala
 let x = +prompt("x  sonini yozing");
+if (x < 0) {
+    alert(" -x");
+} else if(0 < x < 2) {
+    alert( "math.poo (x,2)");
+}
+ else if(x > 2) {
+    alert( "4");
+}
