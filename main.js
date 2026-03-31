@@ -252,22 +252,22 @@ function natija (birlik) {
     switch (birlik){
         case 1 : 
         console.log(uzunlik * 0.1 + "metr");
-        break ; // destemetr
+        break ; 
         case 2: 
         console.log(uzunlik * 1000 + "metr");
         
-        break ; // kilometr
+        break ; 
         case 3: 
-          console.log(uzunlik * + "metr");  
-        break ; // metr
+          console.log(uzunlik  + "metr");  
+        break ;
         case 4: 
        console.log(uzunlik * 0.001 + "metr");
-        break ; // millimetr
+        break ; 
         case 5: 
          console.log(uzunlik * 0.01 + "metr");
-        break ; // santimetr
+        break ; 
         default:
          console.log("Xato birlik");         
     }
     }
-    natija(birlik);
+    natija(birlik , uzunlik);
