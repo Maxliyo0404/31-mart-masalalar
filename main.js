@@ -58,8 +58,13 @@
 //     alert(" a + b chiqsin");
 // }
 
-// 3-masala
+// 13-masala
 
 let a = +prompt("a kiriting");
 let b = +prompt("b kiriting");
 let c = +prompt("c kiriting");
+if (a < b  &&  b < c) {
+    alert((a * b * c ) * 2 );
+} else {
+    alert(a - b - c );
+}
