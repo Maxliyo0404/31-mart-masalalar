@@ -245,33 +245,29 @@
 //     }
 //     }
 //     natija(birlik);
-// // 4-masala
+// // 5-masala
 let birlik = +prompt("birlikni tanlang");
-let uzunlik = +prompt("uzunlikni tanlang");
+let ogirlik = +prompt("ogirlikni tanlang");
 function natija (birlik) {
     switch (birlik){
-        case 1 : // desimetr
-        natija = uzunlik * 0.1; // 1dm = 0.1 metr
-        console.log(uzunlik +  "desimetr ="  + natija  +  "metr");
-        break ;
-        case 2: // kilometr
-        natija = uzunlik * 1000 ; // 1km = 1000 metr
-         console.log(uzunlik + "kilometr =" + natija  +  "metr");
-        break ;
-        case 3: // metr
-            natija = uzunlik; //o'zgarmaydi
-        console.log(uzunlik + "metr = " + natija  +  "metr");
-        break ;
-        case 4: // millimetr
-         natija = uzunlik * 0.001; // 1mm = 0.001 metr
-         console.log(uzunlik + "millimetr =" + natija  +  "metr");
-        break ;
-        case 5: // santimetr
-          natija = uzunlik * 0.01 ; // 1sm = 0.01 metr
-         console.log(uzunlik + "santimetr =" + natija  +  "metr");
-        break ;
+        case 1 : 
+        console.log(uzunlik * 0.1 + "metr");
+        break ; // destemetr
+        case 2: 
+        console.log(uzunlik * 1000 + "metr");
+        
+        break ; // kilometr
+        case 3: 
+          console.log(uzunlik * + "metr");  
+        break ; // metr
+        case 4: 
+       console.log(uzunlik * 0.001 + "metr");
+        break ; // millimetr
+        case 5: 
+         console.log(uzunlik * 0.01 + "metr");
+        break ; // santimetr
         default:
-         console.log("Xato 1 dan 5 gacham son kiriting");         
+         console.log("Xato birlik");         
     }
     }
     natija(birlik);
