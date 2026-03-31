@@ -114,7 +114,7 @@
 // 18-masala
  let a = +prompt("a kiriting");
  if (a >= 1 && a <= 9) {
-    
- } else {
+    alert("1 xonali son ")
+ } else if(n >= 10 && n <= 99) {
     
  }
