@@ -109,3 +109,7 @@
 //  else if(x >= 2) {
 //     alert( "4");
 // }
+// 17-masala
+
+// 18-masala
+ let a = +prompt("a kiriting");
