@@ -135,3 +135,4 @@
 //     alert("sin 1 va 999 oralig'ida emas")
 //  }
  
+// case 1-masala
