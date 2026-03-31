@@ -112,4 +112,4 @@
 // 17-masala
 
 // 18-masala
- let a = +prompt("a kiriting");
+//  let a = +prompt("a kiriting");
