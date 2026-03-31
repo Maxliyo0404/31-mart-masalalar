@@ -45,15 +45,15 @@
 
 //  2-masala
 
-let a = +prompt("a kiriting");
-let b = +prompt("b kiriting");
-let c = +prompt("c kiriting");
-let kichik = Math.min( a, b, c);
-if (kichik === a) {
-    alert(" b + c chiqsin");
-} else if(kichik === b) {
-    alert(" a + c chiqsin");
-}
- else  {
-    alert(" a + b chiqsin");
-}
+// let a = +prompt("a kiriting");
+// let b = +prompt("b kiriting");
+// let c = +prompt("c kiriting");
+// let kichik = Math.min( a, b, c);
+// if (kichik === a) {
+//     alert(" b + c chiqsin");
+// } else if(kichik === b) {
+//     alert(" a + c chiqsin");
+// }
+//  else  {
+//     alert(" a + b chiqsin");
+// }
