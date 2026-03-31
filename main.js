@@ -27,3 +27,8 @@
 //    alert("Teng : a=" + a +"b=" + b);
 // }
   
+// 10-masala
+ let a = +prompt("a kiriting");
+ let b = +prompt("b kiriting");
+ let c = +prompt("c kiriting");
+ let result = Math.min
