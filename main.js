@@ -16,5 +16,10 @@
 // 9-masal
 let a = +prompt("a kiriting");
 let b = +prompt("b kiriting");
-
+let katta = Math.max( a + b);
+if (a !== b) {
+    
+} else {
+    
+}
   
