@@ -80,5 +80,5 @@ if ((a < b && b < c) || (a > b && b > c)) {
     alert("natija (ikkilantirildi): "  + natija); 
 } else {
      let natija = a -b -c;
-     alert("natija (shart bajarilmadi): "  + natija); 
+     alert("natija (shart bajarilmadi): "  + natija) 
 }
