@@ -248,26 +248,26 @@
 // // 5-masala
 let birlik = +prompt("birlikni tanlang");
 let ogirlik = +prompt("ogirlikni tanlang");
-function natija (birlik) {
+function natija (birlik, ogirlik) {
     switch (birlik){
         case 1 : 
-        console.log(uzunlik * 0.1 + "metr");
-        break ; 
+        console.log(ogirlik   + "kg");
+        break ; // milligram
         case 2: 
-        console.log(uzunlik * 1000 + "metr");
+        console.log(ogirlik / 1000000 + "kg");
         
-        break ; 
+        break ; // milligram 
         case 3: 
-          console.log(uzunlik  + "metr");  
-        break ;
+          console.log(ogirlik / 1000 + "kg");  
+        break ;  //gramm
         case 4: 
-       console.log(uzunlik * 0.001 + "metr");
-        break ; 
+       console.log(ogirlik * 1000 + "kg");
+        break ; //tonna
         case 5: 
-         console.log(uzunlik * 0.01 + "metr");
-        break ; 
+         console.log(ogirlik * 100 + "kg");
+        break ; //senter
         default:
-         console.log("Xato birlik");         
+         console.log("Xato og'irlik");         
     }
     }
-    natija(birlik , uzunlik);
+    natija(birlik , ogirlik);
