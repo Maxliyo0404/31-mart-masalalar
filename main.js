@@ -113,3 +113,8 @@
 
 // 18-masala
  let a = +prompt("a kiriting");
+ if (a >= 1 && a <= 9) {
+    
+ } else {
+    
+ }
