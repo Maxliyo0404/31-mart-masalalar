@@ -64,7 +64,9 @@ let a = +prompt("a kiriting");
 let b = +prompt("b kiriting");
 let c = +prompt("c kiriting");
 if (a < b  &&  b < c) {
-    alert((a * b * c ) * 2 );
+    let natija = a * b * c * 2 ;
+    alert("natija ko'paytma *  2" + natija);
 } else {
-    alert(a - b - c );
+    let natija = a -b -c;
+    alert("natija ayirma" + natija);
 }
