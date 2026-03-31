@@ -119,13 +119,13 @@
  }else{
     alert("1 xonali toq son");
  }
-  else if(n >= 10 && n <= 99) {
+  else if(a >= 10 && a <= 99) {
     if (a % 2 === 0)
      alert("2 xonali juft son ");
  } else{
     alert("2 xonali toq son");
  }
- else if(n >= 100 && n <= 999) {
+ else if(a >= 100 && a <= 999) {
     if (a % 2 === 0)
      alert("3 xonali juft son ");
  } else{
