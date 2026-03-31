@@ -271,3 +271,4 @@
 //     }
 //     }
 //     natija(birlik , ogirlik);
+// 6-masala
