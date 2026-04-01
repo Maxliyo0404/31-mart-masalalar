@@ -353,9 +353,9 @@
 // 10-masala
 // let a = +prompt("a son kiritng");
 // let b = +prompt("b son kiritng");
-let natija
-if () {
+// let natija
+// if () {
     
-} else {
+// } else {
     
-}
+// }
