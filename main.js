@@ -310,37 +310,34 @@
 // natija (D, M);
 
 // 7-masala
-let D = +prompt("Kunni kiriting");
-let M = +prompt("Oy raqamini 1-12gacha  kiriting");
-function natija (D, M){
-    let kunlar;
-    switch(M){
-        case 2 : kunlar = 28 
-        break ;
-        case 4: 
-        case 6 : 
-        case 9 : 
-        case 11: kunlar =30
-        break ;
-        case 3 : oynomi = "Mart";
-        break ;
-        case 4 : oynomi = "Aprel";
-        break ;
-        case 5 : oynomi = "May";
-        break ;
-        case 6 : oynomi = "Iyun";
-        break ;
-        case 7 : oynomi = "Iyul";
+// let D = +prompt("Kunni kiriting");
+// let M = +prompt("Oy raqamini 1-12gacha  kiriting");
+// function natija (D, M){
+//     let kunlar;
+//     switch(M){
+//         case 2 : kunlar = 28 
+//         break ;
+//         case 4: 
+//         case 6 : 
+//         case 9 : 
+//         case 11: kunlar =30
+//         break ;
+//         case 3 : oynomi = "Mart";
+//         break ;
+//         case 4 : oynomi = "Aprel";
+//         break ;
+//         case 5 : oynomi = "May";
+//         break ;
+//         case 6 : oynomi = "Iyun";
+//         break ;
+//         case 7 : oynomi = "Iyul";
         
-        break ;
-        case 11 : oynomi = "Noyabr";
-        break ;
-        case 12 : oynomi = "Dekabr";
-        break ;
-        default: oynomi = "Xato oy kiritildi";
+//         break ;
+//         case 11 : oynomi = "Noyabr";
+//         break ;
+//         case 12 : oynomi = "Dekabr";
+//         break ;
+//         default: oynomi = "Xato oy kiritildi";
 
 
-    }
-    console.log(D + " - " + oynomi);
-}
-natija (D, M);
+//    /
