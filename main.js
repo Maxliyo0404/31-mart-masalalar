@@ -349,4 +349,3 @@
 // let b = +prompt("b son kiritng");
 // 9-masala
 let a = +prompt("a son kiritng");
-let b = +prompt("b son kiritng");
