@@ -274,3 +274,9 @@
 // 6-masala
 let D = +prompt("Sana kiriting");
 let M = +prompt("Oy kiriting");
+function natija (D, M){
+    let oynomi;
+    switch(M){
+        
+    }
+}
