@@ -302,8 +302,7 @@ function natija (D, M){
         case 12 : oynomi = "Dekabr";
         break ;
         default
-        case 11 : oynomi = "Noyabe";
-        break ;
+       
 
     }
 }
