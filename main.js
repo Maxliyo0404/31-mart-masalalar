@@ -308,3 +308,5 @@
 //     console.log(D + " - " + oynomi);
 // }
 // natija (D, M);
+
+// 7-masala
