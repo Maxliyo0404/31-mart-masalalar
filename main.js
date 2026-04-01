@@ -272,3 +272,4 @@
 //     }
 //     natija(birlik , ogirlik);
 // 6-masala
+let d = +prompt("sana kiriting");
