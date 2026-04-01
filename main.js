@@ -301,8 +301,9 @@ function natija (D, M){
         break ;
         case 12 : oynomi = "Dekabr";
         break ;
-        default
+        default:
        
 
     }
 }
+natija (D, M)
