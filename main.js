@@ -340,4 +340,7 @@
 //         default: oynomi = "Xato oy kiritildi";
 
 
-//    /
+//     }
+//     console.log(D + " - " + oynomi);
+// }
+// natija (D, M);
