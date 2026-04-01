@@ -345,3 +345,4 @@
 // }
 // natija (D, M);
 // 8-masala
+let a = +prompt("son kiritng");
