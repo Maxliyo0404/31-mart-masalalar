@@ -302,9 +302,7 @@ function natija (D, M){
         case 12 : oynomi = "Dekabr";
         break ;
         default:
-       
 console.log(M);
-
     }
 }
 natija (D, M)
