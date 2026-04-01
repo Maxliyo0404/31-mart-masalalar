@@ -345,5 +345,5 @@
 // }
 // natija (D, M);
 // 8-masala
-let a = +prompt("a son kiritng");
-let b = +prompt("b son kiritng");
+// let a = +prompt("a son kiritng");
+// let b = +prompt("b son kiritng");
