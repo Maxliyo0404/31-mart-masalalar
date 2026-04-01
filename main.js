@@ -273,7 +273,7 @@
 //     natija(birlik , ogirlik);
 // 6-masala
 let D = +prompt("Sana kiriting");
-let M = +prompt("Oy kiriting");
+let M = +prompt("Oy raqamini kiriting");
 function natija (D, M){
     let oynomi;
     switch(M){
@@ -301,8 +301,10 @@ function natija (D, M){
         break ;
         case 12 : oynomi = "Dekabr";
         break ;
-        default:
-console.log(M);
+        default: oynomi = "Xato oy kiritildi";
+
+
     }
+    console.log(D + " - " + oynomi);
 }
-natija (D, M)
+natija (D, M);
