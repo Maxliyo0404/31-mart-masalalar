@@ -273,7 +273,7 @@
 //     natija(birlik , ogirlik);
 // 6-masala
 let D = +prompt("Sana kiriting");
-let M = +prompt("Oy raqamini kiriting");
+let M = +prompt("Oy raqamini 1-12gacha  kiriting");
 function natija (D, M){
     let oynomi;
     switch(M){
