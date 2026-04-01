@@ -281,13 +281,13 @@ function natija (D, M){
         break ;
         case 2 : oynomi = "Fevral";
         break ;
-        case 3 : oynomi = "Yanvar";
+        case 3 : oynomi = "Mart";
         break ;
-        case 1 : oynomi = "Yanvar";
+        case 4 : oynomi = "Aprel";
         break ;
-        case 1 : oynomi = "Yanvar";
+        case 5 : oynomi = "May";
         break ;
-        case 1 : oynomi = "Yanvar";
+        case 6 : oynomi = "Iyun";
         break ;
         case 1 : oynomi = "Yanvar";
         break ;
