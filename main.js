@@ -277,6 +277,28 @@ let M = +prompt("Oy kiriting");
 function natija (D, M){
     let oynomi;
     switch(M){
-        
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 2 : oynomi = "Fevral";
+        break ;
+        case 3 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 1 : oynomi = "Yanvar";
+        break ;
+
     }
 }
