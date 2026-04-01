@@ -344,3 +344,4 @@
 //     console.log(D + " - " + oynomi);
 // }
 // natija (D, M);
+// 8-masala
