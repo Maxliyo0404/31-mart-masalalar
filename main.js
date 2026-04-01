@@ -310,14 +310,17 @@
 // natija (D, M);
 
 // 7-masala
-let D = +prompt("Sana kiriting");
+let D = +prompt("Kunni kiriting");
 let M = +prompt("Oy raqamini 1-12gacha  kiriting");
 function natija (D, M){
-    let oynomi;
+    let kunlar;
     switch(M){
-        case 1 : oynomi = "Yanvar";
+        case 2 : kunlar = 28 
         break ;
-        case 2 : oynomi = "Fevral";
+        case 4: 
+        case 6 : 
+        case 9 : 
+        case 11: kunlar =30
         break ;
         case 3 : oynomi = "Mart";
         break ;
