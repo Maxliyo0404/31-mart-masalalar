@@ -303,6 +303,7 @@ function natija (D, M){
         break ;
         default:
        
+console.log(M);
 
     }
 }
