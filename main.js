@@ -331,12 +331,7 @@ function natija (D, M){
         case 6 : oynomi = "Iyun";
         break ;
         case 7 : oynomi = "Iyul";
-        break ;
-        case 8 : oynomi = "Avgust";
-        break ;
-        case 9 : oynomi = "Sentabr";
-        break ;
-        case 10: oynomi = "Oktabr";
+        
         break ;
         case 11 : oynomi = "Noyabr";
         break ;
