@@ -310,3 +310,39 @@
 // natija (D, M);
 
 // 7-masala
+let D = +prompt("Sana kiriting");
+let M = +prompt("Oy raqamini 1-12gacha  kiriting");
+function natija (D, M){
+    let oynomi;
+    switch(M){
+        case 1 : oynomi = "Yanvar";
+        break ;
+        case 2 : oynomi = "Fevral";
+        break ;
+        case 3 : oynomi = "Mart";
+        break ;
+        case 4 : oynomi = "Aprel";
+        break ;
+        case 5 : oynomi = "May";
+        break ;
+        case 6 : oynomi = "Iyun";
+        break ;
+        case 7 : oynomi = "Iyul";
+        break ;
+        case 8 : oynomi = "Avgust";
+        break ;
+        case 9 : oynomi = "Sentabr";
+        break ;
+        case 10: oynomi = "Oktabr";
+        break ;
+        case 11 : oynomi = "Noyabr";
+        break ;
+        case 12 : oynomi = "Dekabr";
+        break ;
+        default: oynomi = "Xato oy kiritildi";
+
+
+    }
+    console.log(D + " - " + oynomi);
+}
+natija (D, M);
